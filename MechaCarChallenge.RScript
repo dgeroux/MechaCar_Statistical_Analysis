@@ -39,6 +39,33 @@ total_summary
 ```{r}
 lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean = mean(PSI), Median = median(PSI), Variance = var(PSI), SD = sd(PSI))
 ```
+```{r}
+t.test(suspension_coil$PSI, mu=1500)
+```
+```{r}
+lot_one <- subset(suspension_coil, Manufacturing_Lot == 'Lot1', select = c(Manufacturing_Lot, VehicleID, PSI))
+```
+```{r}
+lot_two <- subset(suspension_coil, Manufacturing_Lot == 'Lot2', select = c(Manufacturing_Lot, VehicleID, PSI))
+```
+
+
+```{r}
+lot_three <- subset(suspension_coil, Manufacturing_Lot == 'Lot3', select = c(Manufacturing_Lot, VehicleID, PSI))
+```
+```{r}
+t.test(lot_one$PSI, mu=1500)
+```
+
+
+```{r}
+t.test(lot_two$PSI, mu=1500)
+```
+
+
+```{r}
+t.test(lot_three$PSI, mu=1500)
+```
 
 
 
