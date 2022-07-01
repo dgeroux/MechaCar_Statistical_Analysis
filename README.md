@@ -20,3 +20,17 @@ When we compare our p-value of 5.25e-11 (seen in the image above) against a sign
 This linear model predicts mpg of MechaCar prototypes fairly well. From our linear regression model (seen in the image above), the r-squared value is 0.71, which means that roughly 71% of the variability of our dependent variable (mpg) is explained using this linear model.
 The lack of significant variables is evidence of overfitting. Overfitting means that the performance of a model performs well with the current dataset, but fails to generalize and predict future data correctly. 
 
+## Summary Statistics on Suspension Coils
+![deliverable_two.one](https://github.com/dgeroux/MechaCar_Statistical_Analysis/blob/main/deliverable_two.one)
+
+**1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
+
+In the image above, we can see that when we combine the suspension data from all the manufacturing lots our variance is 62.29 pounds per square inch, which does NOT exceed the design specifications stating that the variance must not exceed 100 pounds per square inch.
+
+![deliverable_two.two](https://github.com/dgeroux/MechaCar_Statistical_Analysis/blob/main/deliverable_two.two.png)
+
+In the image above, we can see the following:
+Lot1 has a variance of 0.98 pounds per square inch, which does NOT exceed the design specifications.
+Lot2 has a variance of 7.47 pounds per square inch, which does NOT exceed the design specifications.
+Lot3 has a variance of 170.29 pounds per square inch, which DOES exceed the design specifications. 
+
