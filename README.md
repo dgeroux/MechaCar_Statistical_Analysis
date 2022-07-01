@@ -51,3 +51,32 @@ In the image above, we compared the mean PSI of Manufacturing Lot#2 against the 
 ![d3.3](https://github.com/dgeroux/MechaCar_Statistical_Analysis/blob/main/Resources/deliverable_three_lot3.png)
 
 In the image above, we compared the mean PSI of Manufacturing Lot#3 against the population mean of 1500 pounds per square inch to determine if the mean is statistically different from the population mean. With a p-value of 0.04 measured against a signifcance level of 0.05, we can state that the null hypothesis is false, meaning we can reject the idea that the mean PSI of Manufactoring Lot#3 may be equivalent to the true population mean.
+
+## Study Design: MechaCar vs Competition 
+**1. What metric or metrics are you going to test?**
+
+To compare the performance of the MechaCar against the performance of vehicles from other manufacturers I'd test the following metrics:
+..*horsepower (independent variable)
+..*transmission (independent variable)
+..*fuel efficiency (dependent variable)
+..*safety rating (independent variable)
+..*0-60mph time (independent variable)
+..*price (independent variable)
+
+**2. What is the null hypothesis or alternative hypothesis?**
+
+Null Hypothesis: The change in the dependent variable (fuel efficiency) can be explained by random chance (p-value > 0.05).
+Alternative Hypothesis: The change in the dependent variable is influenced by non-random events (p-value < 0.05).
+
+**3. What statistical test would you use to test the hypothesis? And why?**
+
+I would use the multiple linear regression statistical test because this test accepts 2 or more independent variables, 1 dependent variable, and continuous data. This test measures how much variance in the dependent variable is accounted for in a linear combination of independent variables, which is exactly what we want to know!
+
+**4. What data is needed to run the statistical test?**
+
+We already have the fuel efficieny (mpg) data, so we would need the remaining variables:
+..*horsepower
+..*transmission
+..*safety rating
+..*0-60mph time
+..price
