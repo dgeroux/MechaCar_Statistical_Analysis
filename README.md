@@ -34,3 +34,20 @@ Lot1 has a variance of 0.98 pounds per square inch, which does NOT exceed the de
 Lot2 has a variance of 7.47 pounds per square inch, which does NOT exceed the design specifications.
 Lot3 has a variance of 170.29 pounds per square inch, which DOES exceed the design specifications. 
 
+## T-Tests on Suspension Coils
+
+![d3](https://github.com/dgeroux/MechaCar_Statistical_Analysis/blob/main/Resources/deliverable_three.png)
+
+In the image above, we compared the mean PSI across all manufacturing lots against the population mean of 1500 pounds per square inch to determine if the mean is statistically different from the population mean. With a p-value of 0.06 measured against a signifcance level of 0.05, we can state that the null hypothesis is true, meaning we cannot reject the fact that the mean PSI across all manufacturing lots may be equivalent to the true population mean.
+
+![d3.1](https://github.com/dgeroux/MechaCar_Statistical_Analysis/blob/main/Resources/deliverable_three_lot1.png)
+
+In the image above, we compared the mean PSI of Manufacturing Lot#1 against the population mean of 1500 pounds per square inch to determine if the mean is statistically different from the population mean. With a p-value of 1 measured against a signifcance level of 0.05, we can state that the null hypothesis is true, meaning we cannot reject the fact that the mean PSI of Manufactoring Lot#1 may be equivalent to the true population mean.
+
+![d3.2](https://github.com/dgeroux/MechaCar_Statistical_Analysis/blob/main/Resources/deliverable_three_lot2.png)
+
+In the image above, we compared the mean PSI of Manufacturing Lot#2 against the population mean of 1500 pounds per square inch to determine if the mean is statistically different from the population mean. With a p-value of 0.61 measured against a signifcance level of 0.05, we can state that the null hypothesis is true, meaning we cannot reject the fact that the mean PSI of Manufactoring Lot#2 may be equivalent to the true population mean.
+
+![d3.3](https://github.com/dgeroux/MechaCar_Statistical_Analysis/blob/main/Resources/deliverable_three_lot3.png)
+
+In the image above, we compared the mean PSI of Manufacturing Lot#3 against the population mean of 1500 pounds per square inch to determine if the mean is statistically different from the population mean. With a p-value of 0.04 measured against a signifcance level of 0.05, we can state that the null hypothesis is false, meaning we can reject the idea that the mean PSI of Manufactoring Lot#3 may be equivalent to the true population mean.
