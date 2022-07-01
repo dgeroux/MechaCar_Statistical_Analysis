@@ -56,12 +56,13 @@ In the image above, we compared the mean PSI of Manufacturing Lot#3 against the 
 **1. What metric or metrics are you going to test?**
 
 To compare the performance of the MechaCar against the performance of vehicles from other manufacturers I'd test the following metrics:
-..*horsepower (independent variable)
-..*transmission (independent variable)
-..*fuel efficiency (dependent variable)
-..*safety rating (independent variable)
-..*0-60mph time (independent variable)
-..*price (independent variable)
+
+*horsepower (independent variable)
+*transmission (independent variable)
+*fuel efficiency (dependent variable)
+*safety rating (independent variable)
+*0-60mph time (independent variable)
+*price (independent variable)
 
 **2. What is the null hypothesis or alternative hypothesis?**
 
@@ -75,8 +76,9 @@ I would use the multiple linear regression statistical test because this test ac
 **4. What data is needed to run the statistical test?**
 
 We already have the fuel efficieny (mpg) data, so we would need the remaining variables:
-..*horsepower
-..*transmission
-..*safety rating
-..*0-60mph time
-..price
+
+*horsepower
+*transmission
+*safety rating
+*0-60mph time
+price
