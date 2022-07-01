@@ -1,7 +1,7 @@
 # MechaCar_Statistical_Analysis
 
 ## Linear Regression to Predict MPG
-![deliverable_one](https://github.com/dgeroux/MechaCar_Statistical_Analysis/blob/main/deliverable_one.png)
+![deliverable_one](https://github.com/dgeroux/MechaCar_Statistical_Analysis/blob/main/Resources/deliverable_one.png)
 
 **1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
 
@@ -21,13 +21,13 @@ This linear model predicts mpg of MechaCar prototypes fairly well. From our line
 The lack of significant variables is evidence of overfitting. Overfitting means that the performance of a model performs well with the current dataset, but fails to generalize and predict future data correctly. 
 
 ## Summary Statistics on Suspension Coils
-![deliverable_two.one](https://github.com/dgeroux/MechaCar_Statistical_Analysis/blob/main/deliverable_two.one)
+![deliverable_two.one](https://github.com/dgeroux/MechaCar_Statistical_Analysis/blob/main/Resources/deliverable_two.one)
 
 **1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
 
 In the image above, we can see that when we combine the suspension data from all the manufacturing lots our variance is 62.29 pounds per square inch, which does NOT exceed the design specifications stating that the variance must not exceed 100 pounds per square inch.
 
-![deliverable_two.two](https://github.com/dgeroux/MechaCar_Statistical_Analysis/blob/main/deliverable_two.two.png)
+![deliverable_two.two](https://github.com/dgeroux/MechaCar_Statistical_Analysis/blob/main/Resources/deliverable_two.two.png)
 
 In the image above, we can see the following:
 Lot1 has a variance of 0.98 pounds per square inch, which does NOT exceed the design specifications.
